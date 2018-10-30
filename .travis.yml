@@ -3,6 +3,8 @@ compiler:
   - gcc
 
 before_script:
+  - ls
+  - pwd
   - sudo ./install/get_eigen.sh
 
 script: echo "hello world!"

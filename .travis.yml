@@ -13,3 +13,5 @@ addons:
   apt:
     sources:
     packages:
+      - cmake-data
+      - cmake

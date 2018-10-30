@@ -1,0 +1,13 @@
+language: cpp
+compiler:
+  - gcc
+
+before_script:
+  - sudo ./install/get_eigen.sh
+
+script: echo "hello world!"
+
+addons:
+  apt:
+    sources:
+    packages:
